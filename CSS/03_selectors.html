@@ -4,16 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>selectors</title>
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-    <header id="header">this is the header</header> 
+    <header id="header">This is the header</header> 
 
-        <h1>First Heading</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nihil tenetur porro aliquid eaque deleniti itaque exercitationem.</p>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <h1>Main Heading</h1>
+        <p>
+            this paragraph is adjacent to h1 and demostrates the adjacent sibling
+            selector.
+        </p>
+        <p>this is a regural paragrahp showing the type selector.</p>
 
-        <p class="highlight"></p>
-    
+        <p class="highlight">
+            this paragraph has a highlight class, demostrating the class selector.
+        </p>
 
-</body>
+        <input type="text" placeholder="enter text here">
+
+        <article>
+            <p>
+               this parag is inside an article ,showing the descent selector.
+            </p>
+        </article>
+        <ul>
+            <li>direct child list item </li>
+            <li>
+                another direct child
+                <ul>
+                    <li>this is not direct child of the first ul</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>sub aheding</h2>
+        <p>
+            this is sibling para to h2 ,demostring the generalsibling selector.
+        </p>
+        <div>this is another sibling parag to h2.</div>
+
+        <a href="#">hover over me to see pseudo-class selector in action</a>
+
+        <p>
+            this parag demostracts pseudo-elsement selector with a style d first
+            line and first better.
+        </p>
+
+        <h3>Heading 3</h3>
+
+        <p>
+            the heading h1,h2 and h3 use the grouping selector for consistent font fimily.
+        </p>
+ </body>
 </html>
